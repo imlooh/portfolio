@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to bottom, #151515, #3a2525); /* Gradient background */
