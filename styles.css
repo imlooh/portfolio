@@ -1,0 +1,136 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #151515, #3a2525); /* Gradient background */
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  header {
+    background-color: rgba(31, 31, 31, 0.9); /* Slightly transparent */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.5); /* Header shadow */
+  }
+
+header h1 {
+  color: #ffb6c1;
+  margin: 0;
+  font-weight: 600;
+}
+
+nav ul, #contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+
+a, strong {
+    color: white;
+    text-decoration: dotted !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover, strong:hover {
+    text-decoration: wavy;
+    color: #e66a7d;
+  }
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid #ffb6c1;
+  padding-bottom: 10px;
+  color: #ffb6c1;
+}
+
+.project, .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Card shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effects */
+}
+
+.github {
+    background-color: #2c2c2c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Card shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effects */
+}
+
+.github:hover, .project:hover, .about:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+.github img, .project img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.github h3, .project h3 {
+  margin: 0 0 10px 0;
+  color: #87cefa;
+}
+
+.github p, .project .description {
+    margin: 0;
+    min-width: 0;
+}
+
+.tags {
+    display: inline-flexbox;
+    margin-top: 10px;
+}
+  
+.tag {
+    display: inline-flex;
+    background-color: #1f1f1f;
+    color: #ffb6c1;
+    border: 1px solid #ffb6c1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+  
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  color: #ffb6c1;
+}
